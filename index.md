@@ -4,16 +4,21 @@ title: "Paul Kalnins, ND, MS"
 permalink: /
 header:
   overlay_image: /assets/images/banner.jpg  # Replace with your banner image
-  overlay_filter: "0.3"
-  overlay_color: "#000"
-  caption: "Integrative Medicine • Systems-Based Health • Network-Informed Healing"
+  overlay_filter: "0.0"
+  overlay_color: "#e0f7fa"
+  class: "text-black"
+
+  #caption: "Integrative Medicine • Systems-Based Health • Network-Informed Healing"
+  text_color: "#000000"
   actions:
-    - label: "About Me"
-      url: "/about/"
-    - label: "Explore My Writing"
-      url: "/writing/"
     - label: "Telehealth Services"
       url: "/patients/"
+      class: "btn--primary"
+    - label: "Writing"
+      url: "/writing/"
+    - label: "Mentorship"
+      url: "/mentorship"
+    
 excerpt: "I’m a licensed naturopathic physician, researcher, and educator with a systems approach to whole-person health."
 intro: 
   - excerpt: "Supporting endocrine, nervous system, immune, and organ-level health through a unique integrative lens."
@@ -24,7 +29,7 @@ feature_row:
     url: "/patients/"
     btn_label: "Work With Me"
     btn_class: "btn--primary"
-  - image_path: /assets/images/writing.jpg
+  - image_path: /assets/images/writing.png
     title: "Research & Writing"
     excerpt: "Bridging traditional healing and modern systems science."
     url: "/writing/"
